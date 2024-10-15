@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=S, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+
+
+  <title>ToDoListJS</title>
+</head>
+<body>
+  <header>
+    <h3 class="tittle">What do you want to do today?</h3>
+    <h4 id="formattedDate">Today is: </h4>
+  </header>
+  <h2>Life is too short to be falling in love with the ordinary...</h2>
+  <div id="elements">
+  <div id="father-container">
+
+  <div id="container">
+    <h3>"Success is not a destination, it is a journey, enjoy it."</h3>
+    <h2>To do List</h2>
+    <div class="toDoList">
+      <input type="text" id="inputText" placeholder="What will you do today?" />
+      <button id="addText">ADD</button>
+      <div id="errorMessage"></div>  
+    </div>
+    <div>
+      <div class="line" ></div>
+      <h2>Activities</h2>
+      <div id="itemsList"> 
+        <div class='item'>
+          <input type="checkbox" id="checkbox-1" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div>
+        <div class='item'>
+          <input type="checkbox" id="checkbox-1" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div>
+        <div class='item'>
+          <input type="checkbox" id="checkbox-1" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div>
+        <div class='item'>
+          <input type="checkbox" id="checkbox-1" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div>  
+      </div>
+    </div> 
+  </div>
+
+  <div id="import-container">
+    <h3>"Import Activities"</h3>
+    <h2>To do List</h2>
+    <div class="importList">
+      <input type="text" id="secondInput" placeholder="What will you do today?" />
+      <button id="secondAdd">ADD</button>
+      <div id="second-errorMessage"></div>  
+    </div>
+    <div>
+      <div class="line" ></div>
+      <h2>Import Activities</h2>
+      <div id="itemsList-2"> 
+        <div class='item'>
+          <input type="checkbox" id="checkbox-2" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div>
+        <div class='item'>
+          <input type="checkbox" id="checkbox-2" value="" /> 
+          Este es mi primer checkbox <a>🗑 trash</a>
+        </div> 
+      </div>  
+    </div> 
+  </div>
+
+  <div id="note-container">
+    <h2>Notes</h2>
+    <div>
+      <div class="line" ></div>
+      <h2>Import Activities</h2>
+       <ul>
+        <li>Tomar calcio y colageno</li>
+        <li>Hacer ejercicio</li>
+        <li>Tomar agua</li>
+        <li>Pagar el cable</li>
+       </ul> 
+    </div> 
+    <img src="img/pngtree-colored-roses-png-image_1486697-removebg-preview.png" alt="">   
+  </div>
+  </div>
+<div id="father-container-2">
+  <h3 class="tittle-container-2">How do you feel today?</h3>
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+</div>
+
+<div class="footer-clean">
+  <footer>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Horoscopes</h3>
+                  <ul>
+                      <li><a href="https://www.hola.com/horoscopo/">Zodiac horoscope</a></li>
+                      <li><a href="https://www.clarin.com/horoscopo-chino?srsltid=AfmBOop2-D7CZHNB8mW0isxbyrCxRbeKNuSIXvmC1XJoYZVlh8KCFj3f">Chinese Horoscope</a></li>
+                      <li><a href="https://www.yaaxtal.com/explora-el-horoscopo-maya-descubre-tu-animal-y-eleva-tu-energia/">Mayan Horoscope</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Feeding</h3>
+                  <ul>
+                      <li><a href="https://www.directoalpaladar.com/recetario/101-recetas-sanas-para-para-tener-menu-saludable-lunes-a-domingo">Omnivore diet</a></li>
+                      <li><a href="https://www.clara.es/bienestar/dieta/recetas-keto_22932">Keto diet</a></li>
+                      <li><a href="https://recetasveganas.net/">Vegan diet</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Entertainment</h3>
+                  <ul>
+                      <li><a href="https://www.hola.com/horoscopo/">In Hola!</a></li>
+                      <li><a href="#">Employee success</a></li>
+                      <li><a href="#">Benefits</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                  <p class="copyright">Company Name © 2018</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="index.js"></script>
+  <script src="chart.js"></script>
+</body>
+</html>
+
