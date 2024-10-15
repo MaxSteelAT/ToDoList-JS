@@ -1,4 +1,4 @@
-const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('chart');
 
 const labels = ['Tomar agua', 'Hacer ejercicio', 'Tomar vitaminas', 'Dormir 8hrs', 'Comer sano', 'Divertirse']
 // Uso de la librería chat.js
@@ -12,7 +12,7 @@ const data = {
       'Divertirse'
     ],
     datasets: [{
-      label: 'My First Dataset',
+      label: 'Information',
       data: [11, 16, 7, 3, 14],
       backgroundColor: [
         'rgb(255, 99, 132)',
