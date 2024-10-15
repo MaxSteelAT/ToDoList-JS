@@ -1,5 +1,3 @@
-new Chart(ctx, config);
-
 const now = moment();
 
 document.getElementById('formattedDate').innerHTML =

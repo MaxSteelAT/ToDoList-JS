@@ -30,3 +30,7 @@ const data = {
     options: {}
   };
 
+  new Chart(ctx, config);
+
+
+
