@@ -1,25 +1,25 @@
 /*Responsivo para Celular horizontal*/
-@media (min-width: 10PX ) and (max-width: 500px){
+@media (min-width: 10PX) and (max-width: 500px) {
   #elements {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    }
-
-.footer-clean .col-md-3,
-.footer-clean .col-lg-3 {
-  flex: 1;
-  min-width: 220px;
-  margin: 0 0 20px 40px;
-  }  
-
-  h2{
-    font-size: 15px;
-    text-align: center; 
   }
 
-  #parent-container{
+  .footer-clean .col-md-3,
+  .footer-clean .col-lg-3 {
+    flex: 1;
+    min-width: 220px;
+    margin: 0 0 20px 40px;
+  }
+
+  h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #parent-container {
     width: 85%;
     display: contents;
     background-color: #ffc0cb8a;
@@ -27,7 +27,7 @@
     border-radius: 20px;
     border-style: solid;
     border-color: #311f235e;
-    padding: 20px; 
+    padding: 20px;
   }
 
   #container {
@@ -62,43 +62,42 @@
     margin: 10px 0;
   }
 
-  #parent-container-2 { 
+  #parent-container-2 {
     width: 90%;
   }
 }
 
 /*Responsivo para Celular vertical*/
-@media (min-width: 340PX ) and (max-width: 740px){
+@media (min-width: 340PX) and (max-width: 740px) {
   #elements {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    }
+  }
 
-.footer-clean .col-md-3,
-.footer-clean .col-lg-3 {
-  flex: 1;
-  min-width: 220px;
-  margin: 0 0 20px 40px;
+  .footer-clean .col-md-3,
+  .footer-clean .col-lg-3 {
+    flex: 1;
+    min-width: 220px;
+    margin: 0 0 20px 40px;
   }
 }
 
 /*Responsivo para tablet horizontal-vertical*/
 
-@media(min-width: 760PX ) and (max-width: 1024px){
+@media(min-width: 760PX) and (max-width: 1024px) {
   #elements {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    }
+  }
 
-.footer-clean .col-md-3,
-.footer-clean .col-lg-3 {
-  flex: 1;
-  min-width: 220px;
-  margin: 0 0 20px 40px;
+  .footer-clean .col-md-3,
+  .footer-clean .col-lg-3 {
+    flex: 1;
+    min-width: 220px;
+    margin: 0 0 20px 40px;
   }
 }
-  

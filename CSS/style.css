@@ -1,4 +1,4 @@
-body{
+body {
   align-items: center;
   background-image: url(https://img.freepik.com/vector-gratis/fondo-minimalista-dibujado-mano_23-2149005694.jpg);
   background-size: cover;
@@ -13,7 +13,7 @@ header {
   border-style: double;
 }
 
-.tittle{
+.tittle {
   margin: auto;
   padding: 50px 0 30px 0;
   font-family: "Satisfy", serif;
@@ -22,8 +22,8 @@ header {
   font-size: 50px;
 }
 
-h2{
-  font-size: 20px; 
+h2 {
+  font-size: 20px;
 }
 
 #formattedDate {
@@ -41,14 +41,14 @@ h2{
   align-items: center;
 }
 
-#parent-container{
+#parent-container {
   width: 600px;
   background-color: #ffc0cb8a;
   text-align: center;
   border-radius: 20px;
   border-style: solid;
   border-color: #311f235e;
-  padding: 20px; 
+  padding: 20px;
 }
 
 #container {
@@ -64,16 +64,50 @@ h2{
   padding-bottom: 20px;
 }
 
-#import-container {
-  width: 45%;
-  height: 30%;
-  background-color: #ffe6ea;
-  text-align: center;
-  border-radius: 20px;
+.toDoList {
+  display: flex;
+  justify-content: center;
+}
+
+#inputText,
+#addText {
+  font-size: 15px;
+  border: 2px solid;
   border-style: solid;
   border-color: #e86f88;
-  float: inline-end;
 }
+
+#addText {
+  background-color: #ec5c8d;
+}
+
+.line {
+  border-top: 1px solid #e86f88;
+  height: 2px;
+  max-width: 450px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+#itemsList {
+  border-radius: 20px;
+  font-size: 15px;
+  border: 3px solid;
+  border-style: solid;
+  border-color: #e86f88;
+  padding: 20px;
+  background-color: #f7e6f4ad;
+  line-height: 40px;
+  margin: 15px;
+}
+
+.item {
+  border-bottom: 1px solid #e86f88;
+  max-width: 100%;
+}
+
+
+/*Diseño del container Notes*/
 
 #note-container {
   width: 45%;
@@ -86,68 +120,32 @@ h2{
   margin: 10px 0;
 }
 
-.line {
-  border-top: 1px solid #e86f88;
-  height: 2px;
-  max-width: 450px;
-  padding: 0;
-  margin: 20px auto 0 auto;
+img {
+  width: 200px;
 }
 
-.toDoList {
-  display: flex;
-  justify-content: center;
-}
+/*Diseño del container Import Activities*/
 
-#inputText, #addText {
-  font-size: 15px;
-  border: 2px solid; 
-  border-style: solid;
-  border-color: #e86f88;
-}
-
-#addText{
-  background-color: #ec5c8d;
-}
-
-.name{
-  text-align: right;
-}
-
-#itemsList{
+#import-container {
+  width: 45%;
+  height: 30%;
+  background-color: #ffe6ea;
+  text-align: center;
   border-radius: 20px;
-  font-size: 15px;
-  border: 3px solid; 
   border-style: solid;
   border-color: #e86f88;
-  padding: 20px;
-  background-color: #f7e6f4ad;
-  line-height: 40px;
-  margin: 15px;
+  float: inline-end;
 }
 
-#itemsList-2{
+#itemsList-2 {
   font-size: 15px;
   padding: 15px;
   line-height: 40px;
 }
 
-.item{
-  border-bottom: 1px solid #e86f88;
-  max-width: 100%;
-}
-
-img {
-width: 200px;
-}
-
-#parent-container-2 { 
+/*Diseño del container Chart*/
+#parent-container-2 {
   width: 600px;
-}
-
-#chart {
-  width: 400px;
-  height: 400px;
 }
 
 .tittle-container-2 {
@@ -155,3 +153,7 @@ width: 200px;
   text-align: center;
 }
 
+#chart {
+  width: 400px;
+  height: 400px;
+}
