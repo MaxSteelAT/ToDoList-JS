@@ -1,15 +1,15 @@
 const ctx = document.getElementById('chart');
 
-const labels = ['Tomar agua', 'Hacer ejercicio', 'Tomar vitaminas', 'Dormir 8hrs', 'Comer sano', 'Divertirse']
+const labels = ['Drink water', 'Do exercise', 'Takes vitamins', 'Sleep 8hrs', 'Eat healthy', 'Enjoy']
 // Uso de la librería chat.js
 const data = {
     labels: [
-      'Tomar agua', 
-      'Hacer ejercicio', 
-      'Tomar vitaminas', 
-      'Dormir 8hrs', 
-      'Comer sano', 
-      'Divertirse'
+      'Drink water', 
+      'Do exercise', 
+      'Take vitamins', 
+      'Sleep 8 hours', 
+      'Eat healthy', 
+      'Enjoy'
     ],
     datasets: [{
       label: 'Information',
